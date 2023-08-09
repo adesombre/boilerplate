@@ -14,8 +14,6 @@
         "symfony/runtime": "6.3.*",
         "symfony/yaml": "6.3.*"
     },
-    "require-dev": {
-    },
     "config": {
         "allow-plugins": {
             "php-http/discovery": true,
@@ -63,5 +61,11 @@
             "allow-contrib": false,
             "require": "6.3.*"
         }
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.50",
+        "symfony/twig-bundle": "6.3.*",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     }
 }
